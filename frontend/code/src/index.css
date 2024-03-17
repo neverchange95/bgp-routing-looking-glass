@@ -1,0 +1,66 @@
+/*
+IM_PRJ - Internet Routing Analysis
+Copyright (c) 2023 Leitwert GmbH. All rights reserved.
+This work is licensed under the terms of the MIT license.
+For a copy, see LICENSE.txt in the project root.
+
+@author: Michael Küchenmeister - Technische Hochschule Ingolstadt (mik6331@thi.de)
+@version: 0.4
+@date: 15.12.2023
+
+The primary purpose of this file is to define the global styles for the project.
+*/
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to left bottom, 
+    #000000, 
+    #110007, 
+    #190012, 
+    #1c001c, 
+    #1a0028, 
+    #180b35, 
+    #121443, 
+    #001c52, 
+    #022b64, 
+    #033a77, 
+    #034a89, 
+    #025b9c);  
+  color: white;
+  font-family: 'Encode Sans Expanded',
+  sans-serif;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(20px);
+  filter: blur(5px);
+}
+
+.fade-enter-active {
+  animation: fade-in 2500ms ease;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1000ms;
+}

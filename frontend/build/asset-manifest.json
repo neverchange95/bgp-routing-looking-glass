@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.09bcc597.css",
+    "main.js": "/static/js/main.23dd9463.js",
+    "static/media/wall-clock.png": "/static/media/wall-clock.ea629724e6525cac0186.png",
+    "static/media/THI-Logo.webp": "/static/media/THI-Logo.7a225fa1b3f950d7a149.webp",
+    "index.html": "/index.html",
+    "main.09bcc597.css.map": "/static/css/main.09bcc597.css.map",
+    "main.23dd9463.js.map": "/static/js/main.23dd9463.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09bcc597.css",
+    "static/js/main.23dd9463.js"
+  ]
+}
