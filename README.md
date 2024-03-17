@@ -27,7 +27,7 @@
 		"numberpeers": 4,
 		"nexthopip": "80.249.209.150",
 		"timestamp": 1559779201
-	}`
+	}
 ```
 
 - `/database` is used by `app.py` to deliver data to the frontend.
