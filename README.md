@@ -1,5 +1,7 @@
 # bgp-routing-looking-glass
 
+<img src="Screenshot.png">
+
 #### Frontend:
 
 - The source code for the React frontend can be found under `webapp/frontend/code/src`.
